@@ -1,0 +1,10 @@
+Seema <class 'str'>
+25 <class 'int'>
+50.5 <class 'float'>
+F <class 'str'>
+True <class 'bool'>
+{'Mango', 'Strawberry', 'Kiwi'} <class 'set'>
+[10, 12, 12, 15] <class 'list'>
+(7, 8, 9) <class 'tuple'>
+{'orange': 4, 'mango': 3, 'kiwi': 1} <class 'dict'>
+None <class 'NoneType'>

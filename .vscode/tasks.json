@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Python Script",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "python3 '${file}' < '${fileDirname}/input.txt' > '${fileDirname}/output.txt'"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Run Python script with input and output redirection"
+      }
+    ]
+  }
+  
